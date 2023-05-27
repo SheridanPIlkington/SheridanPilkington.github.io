@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our First Semantic HTML Webpage</h1>
+      <nav>
+        <ul>
+          <li><a class="big-font" href="#about-us">About Us</a></li>
+          <li><a href="#favorite-foods">Favorite Foods</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about-us-section" id="about-us">
+        <h2>About Us</h2>
+        <p class="big-font">
+          We are students learning <span class="fancy">HTML and CSS!</span>
+        </p>
+      </section>
+      <section class="food-section" id="favorite-foods">
+        <h2>Favorite Foods</h2>
+        <ul class="favorite-foods">
+          <li>Pizza</li>
+          <li class="big-font cross-out">Sushi</li>
+          <li class="cross-out">Ice Cream</li>
+        </ul>
+      </section>
+      <div id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Visit us <a href="www.example.com">Example.com</a></p>
+      </div>
+      <form action="#">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="date"></label>
+        <input type="date" id="date" name="date" />
+        <input type="password" />
+        <input class="input-button" type="submit" />
+        <input class="input-button" type="reset" />
+      </form>
+      <button onclick="alert('hi from the button')">Click Me</button>
+    </main>
+    <footer>
+      <h3>Our Logo</h3>
+      <img
+        class="logo"
+        src="https://s3.amazonaws.com/www-inside-design/uploads/2019/05/woolmarkimagelogo-1024x576.png"
+        alt="cool logo"
+      />
+      <p>&copy;2023 Zac</p>
+    </footer>
+  </body>
+</html>

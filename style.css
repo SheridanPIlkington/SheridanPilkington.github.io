@@ -1,0 +1,61 @@
+/* # for ids */
+/* . for classes */
+
+
+​nav ul{
+list-style: none;
+margin:0;
+padding:0;
+}
+    
+h1 h2 h3{ background-color: blue;}
+h1 {
+  text-align: center;
+  background-color: lightseagreen;
+}
+​
+nav ul li {
+    display: inline;
+    margin-left: 55px;
+}
+.food-section {
+background-color: rgba(231, 205, 255, 0);
+}
+​
+section {
+  background-color: lightgreen;
+}
+​
+.favorite-foods {
+  background-color: lightskyblue;
+}
+​
+.big-font {
+  font-size: 36px;
+}
+​
+.cross-out {
+  text-decoration: line-through;
+}
+​
+.logo {
+  width: 200px;
+}
+​
+input {
+  display: block;
+}
+​
+.input-button {
+  display: inline;
+}
+​
+.fancy {
+  text-decoration: double;
+  font-weight: bold;
+  color: blue;
+}
+​
+.about-us-section {
+  background-color: aquamarine;
+}
