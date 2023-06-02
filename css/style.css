@@ -1,3 +1,16 @@
 body {
+  background-color: rgb(251, 255, 0);
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+h2{
     background-color: aqua;
+}
+li{
+    background-color: blueviolet;
+}
+h3{
+    background-color: brown;
 }
