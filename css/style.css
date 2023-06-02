@@ -14,3 +14,35 @@ li{
 h3{
     background-color: brown;
 }
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: repeat(2, 1fr) 1.4fr 0.6fr repeat(2, 1fr); 
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header header header header ADS"
+      "main-section main-section main-section side-bar-section-1 side-bar-section-1 ADS"
+      "main-section-2 main-section-2 main-section-2 side-bar-section-1 side-bar-section-1 ADS"
+      "footer footer footer footer footer ADS"
+      ". . . . . ."
+      ". . . . . ."; 
+  }
+  .header { grid-area: header; }
+.main-section { grid-area: main-section; }
+.main-section-2 { grid-area: main-section-2; }
+.side-bar-section-1 {
+  display: grid; 
+  grid-template-columns: repeat(0, 1fr); 
+  grid-template-rows: repeat(0, 2fr); 
+  gap: px 0px; 
+  grid-template-areas: 
+    ". . ."
+    "side-bar-section-2 side-bar-section-2 side-bar-section-2"
+    "side-bar-section-3 side-bar-section-3 side-bar-section-3"; 
+  grid-area: side-bar-section-1; 
+}
+.side-bar-section-2 { grid-area: side-bar-section-2; }
+.side-bar-section-3 { grid-area: side-bar-section-3; }
+.footer { grid-area: footer; }
+.ADS { grid-area: ADS; }
