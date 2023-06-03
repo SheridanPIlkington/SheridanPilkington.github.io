@@ -45,4 +45,5 @@ h3{
 .side-bar-section-2 { grid-area: side-bar-section-2; }
 .side-bar-section-3 { grid-area: side-bar-section-3; }
 .footer { grid-area: footer; }
-.ADS { grid-area: ADS; }
+.ADS 
+{ grid-area: ADS; }
